@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Semana 15</title>
+        <link rel="stylesheet" href="css/index.css">
+    </head>
+
+    <body>
+        <div id="homeTitle">
+        <h1 id="username">...</h1>
+        </div>
+        <div id="homeupContainer">
+        <h3 id="cont">Tus contactos</h3>
+        <button id="masBtn">Añadir</button>
+        </div>
+
+        <div id="usersContainer">
+
+        </div>
+    </body>
+
+
+<!--Firebase-->    
+<script src="https://www.gstatic.com/firebasejs/8.6.2/firebase.js"></script>
+<script>
+  var firebaseConfig = {
+    apiKey: "AIzaSyDd7BRo85abajtAmxYAD0Tq3_B5MPC8g00",
+    authDomain: "ecosistemas-4779c.firebaseapp.com",
+    databaseURL: "https://ecosistemas-4779c-default-rtdb.firebaseio.com",
+    projectId: "ecosistemas-4779c",
+    storageBucket: "ecosistemas-4779c.appspot.com",
+    messagingSenderId: "328015409105",
+    appId: "1:328015409105:web:7e901d6126f5fb1cb8faf0",
+    measurementId: "G-V1WR7Q0YJJ"
+  };
+  firebase.initializeApp(firebaseConfig);
+</script>
+
+<script src="components/FilaUser.js"></script>
+<script src="js/home.js"></script>
+</html>
+

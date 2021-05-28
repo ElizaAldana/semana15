@@ -1,0 +1,94 @@
+#registerContainer {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+#registerContainer * {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+#titleContainer {
+    text-align: center;
+    flex-direction: column;
+    width: 40%;
+    background-color: rgb(226, 112, 112);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: aliceblue; 
+}
+
+#agregarContainer{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+#agregarContainer * {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+#titleAContainer {
+    text-align: center;
+    flex-direction: column;
+    width: 40%;
+    background-color: rgb(226, 112, 112);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: aliceblue; 
+}
+
+#logTitle{
+    text-align: center;
+    flex-direction: column;
+    width: 40%;
+    background-color: rgb(226, 112, 112);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: aliceblue; 
+}
+
+#loginContainer{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+#loginContainer * {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+#homeupContainer {
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: lavender;
+}
+
+#homeupContainer * {
+margin-right: 20%;
+}
+
+#homeTitle{
+    text-align: center;
+    flex-direction: column;
+    width: 40%;
+    background-color: rgb(226, 112, 112);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: aliceblue; 
+}
+
+.filauser{
+    margin-top: 2em;
+    margin-bottom: 2em;
+    background-color: rgb(219, 219, 219);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 38.5%;
+    padding: 0.8em;
+}
+
+.nombrecont{
+    font-weight: bold;
+    color:rgb(226, 112, 112);
+}

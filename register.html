@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Semana 15</title>
+        <link rel="stylesheet" href="css/index.css">
+    </head>
+
+    <body>
+        <div id="titleContainer">
+        <h2 id="title">REGISTER</h2>
+        </div>
+
+    <div id="registerContainer">
+        <input id="names" placeholder="Nombre" type="text">
+        <input id="number" placeholder="Teléfono" type="text">
+        <input id="email" placeholder="Email" type="text">
+        <input id="password" placeholder="Password" type="password">
+        <input id="password2" placeholder="Password again" type="password">
+
+        <button id="agregarBtn" style="background-color: lightcoral;">Register</button>
+    </div>
+
+    <a href="login.html">Ya tengo cuenta</a>
+
+    </body>
+
+
+</html>
+<script src="https://www.gstatic.com/firebasejs/8.6.2/firebase.js"></script>
+<script>
+  var firebaseConfig = {
+    apiKey: "AIzaSyDd7BRo85abajtAmxYAD0Tq3_B5MPC8g00",
+    authDomain: "ecosistemas-4779c.firebaseapp.com",
+    databaseURL: "https://ecosistemas-4779c-default-rtdb.firebaseio.com",
+    projectId: "ecosistemas-4779c",
+    storageBucket: "ecosistemas-4779c.appspot.com",
+    messagingSenderId: "328015409105",
+    appId: "1:328015409105:web:7e901d6126f5fb1cb8faf0",
+    measurementId: "G-V1WR7Q0YJJ"
+  };
+  firebase.initializeApp(firebaseConfig);
+</script>
+
+<script src="js/register.js"></script>
